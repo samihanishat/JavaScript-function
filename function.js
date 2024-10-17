@@ -77,3 +77,35 @@ function odd_even(integer){
     }
 }
 odd_even(123);
+
+
+// Leap Year
+function isLeapYear (year){
+    if(year % 100 !== 0 && year % 4 === 0){
+        return true;
+    }
+    else if (year % 100 === 0 && year % 400 === 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+const isLeap = isLeapYear(1200);
+console.log(isLeap);
+
+
+// No Repetation
+function Norepetation (array){
+    const uniqueArray = [];
+    for(const item of array){
+        if(uniqueArray.includes(item) === false){
+            uniqueArray.push(item);
+        }
+    }
+    return uniqueArray;
+}
+const numbers = [1,13,13,1,2,5,12,13,16,12,13,19,39,52,89];
+const unique = Norepetation (numbers);
+console.log(unique);
