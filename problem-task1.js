@@ -53,14 +53,14 @@ console.log(longestWord(word));
 console.log(longestWord('I am a student of Information and Communication Technology at Comilla University.'));
 
 
-// Task-5:
+// Task-4:
 // Generate a random number between 10 to 20.
 function getRandomNumber() {
     return Math.floor(Math.random() * 11 + 10);
 }
 // console.log(getRandomNumber());
 
-// Task-3:
+// Task-5:
 // Write a function to count the number of vowels in a string.
 function vowels(string){
     let NumVowels = 0;
