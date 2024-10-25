@@ -10,7 +10,7 @@ function getShoopingTotal(products) {
         sum += product.price;
     }
     return sum;
-}
+};
 console.log(getShoopingTotal(products));
 
 
